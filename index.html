@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lorcana Deck Lab (Static)</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <h1>Lorcana Deck Lab</h1>
+    <nav>
+      <button class="tab active" data-route="#builder">Deck Builder</button>
+      <button class="tab" data-route="#matchup">Matchup Analyzer</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="builder" class="page active">
+      <div class="grid">
+        <aside class="panel" id="filter-panel">
+          <h2>Filters</h2>
+          <input id="search" placeholder="Search cards" />
+          <h3>Ink Colors</h3>
+          <div id="ink-colors" class="chip-row"></div>
+          <h3>Ink Cost</h3>
+          <label>Min <input id="cost-min" type="range" min="0" max="10" value="0"><span id="cost-min-value">0</span></label>
+          <label>Max <input id="cost-max" type="range" min="0" max="10" value="10"><span id="cost-max-value">10</span></label>
+          <label><input id="inkable-only" type="checkbox" /> Inkable only</label>
+          <label>Legality
+            <select id="legality">
+              <option>All</option><option>Standard</option><option>Expanded</option><option>Banned</option>
+            </select>
+          </label>
+          <h3>Card Types</h3>
+          <div id="card-types" class="chip-row"></div>
+        </aside>
+
+        <section class="panel" id="catalog-panel">
+          <h2>Card Database (<span id="card-count">0</span>)</h2>
+          <div id="catalog" class="scroll"></div>
+        </section>
+
+        <aside class="panel" id="deck-panel">
+          <h2>Deck Builder</h2>
+          <input id="deck-name" value="Untitled Deck" />
+          <p id="deck-size">Deck size: 0</p>
+          <div id="validation" class="validation"></div>
+          <div class="row">
+            <button id="save-deck">Save</button>
+            <button id="clear-deck">Clear</button>
+            <button id="export-deck">Export</button>
+          </div>
+          <textarea id="import-text" placeholder="Import decklist lines like: 4 Royal Balladeer"></textarea>
+          <button id="import-deck">Import</button>
+          <h3>Current Deck</h3>
+          <div id="deck-list" class="scroll small"></div>
+          <h3>Saved Decks</h3>
+          <div id="saved-decks" class="scroll small"></div>
+        </aside>
+      </div>
+
+      <section class="panel stats">
+        <h2>Deck Stats</h2>
+        <div class="charts3">
+          <div><h3>Mana Curve</h3><div id="mana-chart" class="bars"></div></div>
+          <div><h3>Ink Colors</h3><div id="color-chart" class="bars"></div></div>
+          <div><h3>Card Types</h3><div id="type-chart" class="bars"></div></div>
+        </div>
+      </section>
+    </section>
+
+    <section id="matchup" class="page">
+      <section class="panel">
+        <h2>Matchup Analyzer</h2>
+        <div class="controls">
+          <label>Deck A <select id="deck-a"></select></label>
+          <label>Deck B <select id="deck-b"></select></label>
+          <label>Simulations <input id="sim-count" type="number" min="1" max="10000" value="1000"></label>
+          <button id="run-sim">Run Simulation</button>
+          <button id="cancel-sim">Cancel</button>
+        </div>
+        <p id="sim-warning" class="warning hidden">Maximum 10,000 iterations allowed.</p>
+        <div id="progress-wrap" class="hidden">
+          <p>Progress: <span id="progress-text">0%</span></p>
+          <div class="progress"><div id="progress-bar"></div></div>
+        </div>
+      </section>
+
+      <section class="panel">
+        <h2>Results</h2>
+        <div id="result-summary">Run a simulation to see results.</div>
+        <div class="charts2">
+          <div><h3>Win Rates</h3><div id="win-chart" class="bars"></div></div>
+          <div><h3>Turn Distribution</h3><div id="turn-chart" class="bars"></div></div>
+        </div>
+      </section>
+    </section>
+  </main>
+
+  <script type="module" src="./js/app.js"></script>
+</body>
+</html>

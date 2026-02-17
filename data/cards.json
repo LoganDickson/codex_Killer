@@ -1,0 +1,818 @@
+[
+  {
+    "id": "C001",
+    "name": "Royal Balladeer",
+    "inkColor": "Amber",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Royal Balladeer grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C002",
+    "name": "Lantern Squire",
+    "inkColor": "Amber",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Lantern Squire grants a tempo bonus when played."
+  },
+  {
+    "id": "C003",
+    "name": "Sunlit Tactician",
+    "inkColor": "Amber",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Sunlit Tactician grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C004",
+    "name": "Harmony Keeper",
+    "inkColor": "Amber",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Harmony Keeper grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C005",
+    "name": "Golden Archivist",
+    "inkColor": "Amber",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Golden Archivist grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C006",
+    "name": "Dawn Herald",
+    "inkColor": "Amber",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Dawn Herald grants a tempo bonus when played."
+  },
+  {
+    "id": "C007",
+    "name": "Village Storyteller",
+    "inkColor": "Amber",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Village Storyteller grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C008",
+    "name": "Faithful Companion",
+    "inkColor": "Amber",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Faithful Companion grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C009",
+    "name": "Court Musician",
+    "inkColor": "Amber",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Court Musician grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C010",
+    "name": "Arcane Seeker",
+    "inkColor": "Amethyst",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Arcane Seeker grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C011",
+    "name": "Dreaming Illusionist",
+    "inkColor": "Amethyst",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Dreaming Illusionist grants a tempo bonus when played."
+  },
+  {
+    "id": "C012",
+    "name": "Mystic Fox",
+    "inkColor": "Amethyst",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Mystic Fox grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C013",
+    "name": "Moonlit Scholar",
+    "inkColor": "Amethyst",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Moonlit Scholar grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C014",
+    "name": "Spellweaver Adept",
+    "inkColor": "Amethyst",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Spellweaver Adept grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C015",
+    "name": "Twilight Oracle",
+    "inkColor": "Amethyst",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Twilight Oracle grants a tempo bonus when played."
+  },
+  {
+    "id": "C016",
+    "name": "Starlight Conjurer",
+    "inkColor": "Amethyst",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Starlight Conjurer grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C017",
+    "name": "Enchanted Mirrorling",
+    "inkColor": "Amethyst",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Enchanted Mirrorling grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C018",
+    "name": "Astral Tracker",
+    "inkColor": "Amethyst",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Astral Tracker grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C019",
+    "name": "Forest Trickster",
+    "inkColor": "Emerald",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Forest Trickster grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C020",
+    "name": "Swift Pathfinder",
+    "inkColor": "Emerald",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Swift Pathfinder grants a tempo bonus when played."
+  },
+  {
+    "id": "C021",
+    "name": "Shadowy Spy",
+    "inkColor": "Emerald",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Shadowy Spy grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C022",
+    "name": "Briar Duelist",
+    "inkColor": "Emerald",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Briar Duelist grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C023",
+    "name": "Wild Ambusher",
+    "inkColor": "Emerald",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Wild Ambusher grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C024",
+    "name": "Canopy Scout",
+    "inkColor": "Emerald",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Canopy Scout grants a tempo bonus when played."
+  },
+  {
+    "id": "C025",
+    "name": "Sneaky Negotiator",
+    "inkColor": "Emerald",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Sneaky Negotiator grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C026",
+    "name": "Vinebound Rogue",
+    "inkColor": "Emerald",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Vinebound Rogue grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C027",
+    "name": "Grove Whisperer",
+    "inkColor": "Emerald",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Grove Whisperer grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C028",
+    "name": "Flame Vanguard",
+    "inkColor": "Ruby",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Flame Vanguard grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C029",
+    "name": "Blazing Duelist",
+    "inkColor": "Ruby",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Blazing Duelist grants a tempo bonus when played."
+  },
+  {
+    "id": "C030",
+    "name": "Crimson General",
+    "inkColor": "Ruby",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Crimson General grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C031",
+    "name": "Volcanic Sprinter",
+    "inkColor": "Ruby",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Volcanic Sprinter grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C032",
+    "name": "Battlefield Drummer",
+    "inkColor": "Ruby",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Battlefield Drummer grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C033",
+    "name": "Inferno Archer",
+    "inkColor": "Ruby",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Inferno Archer grants a tempo bonus when played."
+  },
+  {
+    "id": "C034",
+    "name": "Scarlet Rebel",
+    "inkColor": "Ruby",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Scarlet Rebel grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C035",
+    "name": "Cinder Bruiser",
+    "inkColor": "Ruby",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Cinder Bruiser grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C036",
+    "name": "Rallying Berserker",
+    "inkColor": "Ruby",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Rallying Berserker grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C037",
+    "name": "Inventive Engineer",
+    "inkColor": "Sapphire",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Inventive Engineer grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C038",
+    "name": "Tidal Strategist",
+    "inkColor": "Sapphire",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Tidal Strategist grants a tempo bonus when played."
+  },
+  {
+    "id": "C039",
+    "name": "Clockwork Tutor",
+    "inkColor": "Sapphire",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Clockwork Tutor grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C040",
+    "name": "Aether Cartographer",
+    "inkColor": "Sapphire",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Aether Cartographer grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C041",
+    "name": "Runic Analyst",
+    "inkColor": "Sapphire",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Runic Analyst grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C042",
+    "name": "Scholar of Currents",
+    "inkColor": "Sapphire",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Scholar of Currents grants a tempo bonus when played."
+  },
+  {
+    "id": "C043",
+    "name": "Crystal Mechanist",
+    "inkColor": "Sapphire",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Crystal Mechanist grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C044",
+    "name": "Harbor Inventor",
+    "inkColor": "Sapphire",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Harbor Inventor grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C045",
+    "name": "Blueprint Savant",
+    "inkColor": "Sapphire",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Blueprint Savant grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C046",
+    "name": "Ironclad Guardian",
+    "inkColor": "Steel",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Common",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Ironclad Guardian grants a tempo bonus when played.",
+    "strength": 1,
+    "willpower": 2,
+    "loreValue": 1,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C047",
+    "name": "Forged Captain",
+    "inkColor": "Steel",
+    "inkCost": 2,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Uncommon",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Forged Captain grants a tempo bonus when played."
+  },
+  {
+    "id": "C048",
+    "name": "Bulwark Sentinel",
+    "inkColor": "Steel",
+    "inkCost": 3,
+    "isInkable": false,
+    "cardType": "Item",
+    "rarity": "Rare",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Bulwark Sentinel grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C049",
+    "name": "Gearsmith Veteran",
+    "inkColor": "Steel",
+    "inkCost": 4,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Super Rare",
+    "setCode": "URS",
+    "legality": "Standard",
+    "abilities": "Gearsmith Veteran grants a tempo bonus when played.",
+    "willpower": 7,
+    "loreValue": 2
+  },
+  {
+    "id": "C050",
+    "name": "Armored Skipper",
+    "inkColor": "Steel",
+    "inkCost": 5,
+    "isInkable": true,
+    "cardType": "Character",
+    "rarity": "Legendary",
+    "setCode": "TFC",
+    "legality": "Standard",
+    "abilities": "Armored Skipper grants a tempo bonus when played.",
+    "strength": 5,
+    "willpower": 6,
+    "loreValue": 2,
+    "keywords": [
+      "Rush"
+    ]
+  },
+  {
+    "id": "C051",
+    "name": "Steel Brigade Scout",
+    "inkColor": "Steel",
+    "inkCost": 6,
+    "isInkable": true,
+    "cardType": "Action",
+    "rarity": "Common",
+    "setCode": "ROF",
+    "legality": "Standard",
+    "abilities": "Steel Brigade Scout grants a tempo bonus when played."
+  },
+  {
+    "id": "C052",
+    "name": "Workshop Brawler",
+    "inkColor": "Steel",
+    "inkCost": 7,
+    "isInkable": true,
+    "cardType": "Item",
+    "rarity": "Uncommon",
+    "setCode": "ITI",
+    "legality": "Standard",
+    "abilities": "Workshop Brawler grants a tempo bonus when played.",
+    "keywords": [
+      "Support"
+    ]
+  },
+  {
+    "id": "C053",
+    "name": "Shieldwall Officer",
+    "inkColor": "Steel",
+    "inkCost": 1,
+    "isInkable": true,
+    "cardType": "Location",
+    "rarity": "Rare",
+    "setCode": "URS",
+    "legality": "Expanded",
+    "abilities": "Shieldwall Officer grants a tempo bonus when played.",
+    "willpower": 4,
+    "loreValue": 2
+  },
+  {
+    "id": "C054",
+    "name": "Anvil Instructor",
+    "inkColor": "Steel",
+    "inkCost": 2,
+    "isInkable": false,
+    "cardType": "Character",
+    "rarity": "Super Rare",
+    "setCode": "TFC",
+    "legality": "Banned",
+    "abilities": "Anvil Instructor grants a tempo bonus when played.",
+    "strength": 3,
+    "willpower": 4,
+    "loreValue": 3,
+    "keywords": [
+      "Rush"
+    ]
+  }
+]
